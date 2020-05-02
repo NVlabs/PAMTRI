@@ -133,7 +133,7 @@ The provided options for network architectures are listed as follows.
 
 #### Testing
 
-Run the following command to test an inference model, where the configuration parameters are defined at [lines 33 to 114 in `train.py`](train.py#L33-114). 
+Run the following command to test an inference model, where the configuration parameters are defined at [lines 40 to 121 in `train.py`](train.py#L40-L121). 
 ```
 python train.py -d <dataset> -a <network> --root data --save-dir <save_dir> --load-weights <weights> --gpu-devices <devices> <options> --evaluate
 ```
@@ -146,7 +146,7 @@ python train.py -d veri -a densenet121 --root data --save-dir log/densenet121-xe
 
 #### Training
 
-Run the following command to start training process, where the configuration parameters are defined at [lines 33 to 114 in `train.py`](train.py#L33-114). 
+Run the following command to start training process, where the configuration parameters are defined at [lines 40 to 121 in `train.py`](train.py#L40-L121). 
 ```
 python train.py -d <dataset> -a <network> --root data --save-dir <save_dir> --gpu-devices <devices> <options>
 ```
