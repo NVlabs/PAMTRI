@@ -1,6 +1,6 @@
 # Multi-Task Network for Vehicle Re-Identification
 
-This directory contains the official PyTorch implementation of the multi-task network of ["PAMTRI: Pose-Aware Multi-Task Learning for Vehicle Re-Identification Using Highly Randomized Synthetic Data", ICCV 2019](http://openaccess.thecvf.com/content_ICCV_2019/html/Tang_PAMTRI_Pose-Aware_Multi-Task_Learning_for_Vehicle_Re-Identification_Using_Highly_Randomized_ICCV_2019_paper.html).
+This directory contains the official PyTorch implementation of the multi-task network of [*PAMTRI: Pose-Aware Multi-Task Learning for Vehicle Re-Identification Using Highly Randomized Synthetic Data*](http://openaccess.thecvf.com/content_ICCV_2019/html/Tang_PAMTRI_Pose-Aware_Multi-Task_Learning_for_Vehicle_Re-Identification_Using_Highly_Randomized_ICCV_2019_paper.html), ICCV 2019.
 
 Features:
 - multi-task learning for joint re-identification and attribute classification
@@ -133,7 +133,7 @@ The provided options for network architectures are listed as follows.
 
 #### Testing
 
-Run the following command to test an inference model, where the configuration parameters are defined at [lines 33 to 114 in `train.py`](MultiTaskNet/train.py#L33-114). 
+Run the following command to test an inference model, where the configuration parameters are defined at [lines 33 to 114 in `train.py`](train.py#L33-114). 
 ```
 python train.py -d <dataset> -a <network> --root data --save-dir <save_dir> --load-weights <weights> --gpu-devices <devices> <options> --evaluate
 ```
@@ -146,7 +146,7 @@ python train.py -d veri -a densenet121 --root data --save-dir log/densenet121-xe
 
 #### Training
 
-Run the following command to start training process, where the configuration parameters are defined at [lines 33 to 114 in `train.py`](MultiTaskNet/train.py#L33-114). 
+Run the following command to start training process, where the configuration parameters are defined at [lines 33 to 114 in `train.py`](train.py#L33-114). 
 ```
 python train.py -d <dataset> -a <network> --root data --save-dir <save_dir> --gpu-devices <devices> <options>
 ```
