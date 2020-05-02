@@ -13,9 +13,9 @@ The original framework was used for the **person-based** pose estimation problem
 We highly recommend to create a virtual environment for the following steps. For example, an introduction to Conda environments can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). 
 
 1. Install PyTorch >= v1.0.0 following the [instructions](https://pytorch.org/).
-2. Clone the repo, and change the current working directory to `PoseEstNet`. The root of this directory will be referred to as `${POSE_ROOT}`.
+2. Clone the repo, and change the current working directory to `PoseEstNet`, which will be referred to as `${POSE_ROOT}`.
    ```
-   cd PoseEstNet
+   cd ${POSE_ROOT}
    ```
 3. Install dependencies:
    ```
