@@ -146,7 +146,7 @@ python tools/train.py --cfg experiments/cityflow_synthetic/resnet/res50_256x256_
 python tools/train.py --cfg experiments/synthetic/resnet/res50_256x256_d256x3_adam_lr1e-3.yaml
 ```
 
-Note: If `tensorboardX.SummaryWriter` is causing errors, you may remove all the related usage in [`tools/train.py`](PoseEstNet/tools/train.py). 
+Note: If `tensorboardX.SummaryWriter` is causing errors, you may remove all the related usage in [`tools/train.py`](tools/train.py). 
 
 ## References
 
