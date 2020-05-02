@@ -14,7 +14,7 @@ Features:
 We highly recommend to create a virtual environment for the following steps. For example, an introduction to Conda environments can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). 
 
 1. Install PyTorch >= v1.0.0 following the [instructions](https://pytorch.org/).
-2. Clone the repo, and change the current working directory to `MultiTaskNet`, which will be referred to as `${REID_ROOT}`.
+2. Clone the repo, and change the current working directory to `MultiTaskNet`, which will be referred to as `${REID_ROOT}`:
    ```
    cd ${REID_ROOT}
    ```
