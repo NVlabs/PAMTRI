@@ -13,17 +13,26 @@ The original framework was used for the **person-based** pose estimation problem
 We highly recommend to create a virtual environment for the following steps. For example, an introduction to Conda environments can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). 
 
 1. Install PyTorch >= v1.0.0 following the [instructions](https://pytorch.org/).
-2. Clone the repo, and the root of this directory will be referred to as `${POSE_ROOT}`.
+2. Clone the repo, and change the current working directory to `PoseEstNet`. The root of this directory will be referred to as `${POSE_ROOT}`.
+   ```
+   cd PoseEstNet
+   ```
 3. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
-4. Make libs:
+4. Download models: 
    ```
-   cd ${POSE_ROOT}/lib
+   wget --no-check-certificate -r 'https://docs.google.com/uc?export=download&id=1vD08fh-za3mgTJ9UkK1ASCTJAqypW0RL' -O models.zip
+   unzip models.zip
+   rm models.zip
+   ```
+5. Make libs:
+   ```
+   cd lib
    make
    ```
-5. Install [COCOAPI](https://github.com/cocodataset/cocoapi):
+6. Install [COCOAPI](https://github.com/cocodataset/cocoapi):
    ```
    # COCOAPI=/path/to/clone/cocoapi
    git clone https://github.com/cocodataset/cocoapi.git $COCOAPI
@@ -35,7 +44,7 @@ We highly recommend to create a virtual environment for the following steps. For
    python3 setup.py install --user
    ```
    The line `# COCOAPI=/path/to/install/cocoapi` indicates that you need to specify a path to have the repo cloned and then set an environment variable (`COCOAPI` in this case) accordingly.
-4. Initialize directories for output and log:
+7. Change the current working directory back to `${POSE_ROOT}`, and create directories for output and log:
    ```
    mkdir output 
    mkdir log
