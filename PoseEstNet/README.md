@@ -59,6 +59,7 @@ We highly recommend to create a virtual environment for the following steps. For
    ├── models
    ├── output
    ├── tools 
+   ├── LICENSE
    ├── README.md
    └── requirements.txt
    ```
