@@ -2,7 +2,7 @@
 
 This repo contains the official PyTorch implementation of *PAMTRI: Pose-Aware Multi-Task Learning for Vehicle Re-Identification Using Highly Randomized Synthetic Data*, ICCV 2019.
 
-[[PDF](http://openaccess.thecvf.com/content_ICCV_2019/html/Tang_PAMTRI_Pose-Aware_Multi-Task_Learning_for_Vehicle_Re-Identification_Using_Highly_Randomized_ICCV_2019_paper.html)] [[Poster](figures/PAMTRI_poster.png)]
+[[Paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Tang_PAMTRI_Pose-Aware_Multi-Task_Learning_for_Vehicle_Re-Identification_Using_Highly_Randomized_ICCV_2019_paper.html)] [[Poster](figures/PAMTRI_poster.png)]
 
 ## Introduction
 
