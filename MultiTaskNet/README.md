@@ -33,6 +33,7 @@ We highly recommend to create a virtual environment for the following steps. For
    ├── log
    ├── models
    ├── torchreid
+   ├── LICENSE
    ├── README.md
    ├── requirements.txt
    └── train.py 
