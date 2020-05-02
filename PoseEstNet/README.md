@@ -62,7 +62,7 @@ We highly recommend to create a virtual environment for the following steps. For
 
 We adopt the 36-keypoint vehicle model as used by other researchers<sup>[1](https://arxiv.org/abs/1803.02057),[2](https://arxiv.org/abs/1411.5935)</sup> and define 13 segments of vehicle surface accordingly. 
 
-![Definition of 36 keypoints and 13 segments](figures/keypoints_segments.png)
+![Definition of 36 keypoints and 13 segments](../figures/keypoints_segments.png)
 
 Please prepare the `data` directory according to the following format.
    ```
