@@ -130,7 +130,7 @@ python tools/test.py --outputPreds --evaluate --outputDir output --cfg experimen
 python tools/test.py --outputPreds --evaluate --outputDir output --cfg experiments/cityflow_synthetic/resnet/res50_256x256_d256x3_adam_lr1e-3.yaml TEST.MODEL_FILE models/cityflow_synthetic/pose_resnet/res50_256x256_d256x3_adam_lr1e-3/model_best.pth
 ```
 
-The argument `--evaluate` is for evaluation of the given model, which can be disabled when using the model for inference only (The test set of images can be changed in the configuration YAML file). The argument `--outputPreds` enables the output of predicted pose (keypoints), heatmaps and segments for pose-aware re-identification, where the output directory is specified by `--outputDir output`. In the output CSV file of pose (keypoints), the format of each line is defined as follows. 
+The argument `--evaluate` is for evaluation of the given model, which can be disabled when using the model for inference only (The test set of images can be changed in the configuration YAML file). Note that the input CSV file of labels is also necessary in inference mode, but only the first column is required (image names). The argument `--outputPreds` enables the output of predicted pose (keypoints), heatmaps and segments for pose-aware re-identification, where the output directory is specified by `--outputDir output`. In the output CSV file of pose (keypoints), the format of each line is defined as follows. 
 ```
 <image name>,<x of keypoint0>,<y of keypoint0>,<visibility of keypoint0>,<x of keypoint1>,<y of keypoint1>,<visibility of keypoint1>,...,<x of keypoint35>,<y of keypoint35>,<visibility of keypoint35>
 ```
