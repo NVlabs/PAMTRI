@@ -77,7 +77,7 @@ We adopt the 36-keypoint vehicle model as used by other researchers<sup>[1](http
 Please prepare the `data` directory according to the following format.
    ```
    ${POSE_ROOT}
-    |-- data
+    `-- data
         |-- veri
             |-- images
             |   |-- image_test
