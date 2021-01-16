@@ -77,7 +77,7 @@ We adopt the 36-keypoint vehicle model as used by other researchers<sup>[1](http
 Please prepare the `data` directory according to the following format.
    ```
    ${POSE_ROOT}
-    `-- data
+    |-- data
         |-- veri
             |-- images
             |   |-- image_test
@@ -168,7 +168,7 @@ Please cite these papers if you use this code in your research:
       booktitle = {Proc. of the International Conference on Computer Vision (ICCV)},
       pages = {211-–220},
       address = {Seoul, Korea},
-      month = oct,
+      month = Oct,
       year = 2019
     }
 
@@ -178,7 +178,7 @@ Please cite these papers if you use this code in your research:
       booktitle = {Proc. of the Conference on Computer Vision and Pattern Recognition (CVPR)},
       pages = {8797–-8806},
       address = {Long Beach, CA, USA},
-      month = jun,
+      month = Jun,
       year = 2019
     }
 
@@ -188,7 +188,7 @@ Please cite these papers if you use this code in your research:
       booktitle = {Proc. of the Conference on Computer Vision and Pattern Recognition (CVPR)},
       pages = {5693--5703},
       address = {Long Beach, CA, USA},
-      month = jun,
+      month = Jun,
       year = 2019
     }
 
